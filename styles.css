@@ -1,5 +1,6 @@
 h1,
-h2 {
+h2,
+h5 {
   text-align: center;
 }
 
@@ -33,4 +34,9 @@ img {
   flex-basis: 0%;
   margin: 5px;
   list-style: none;
+}
+
+h1.spiceup {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
 }
