@@ -4,22 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      h1,
+      h2 {
+        text-align: center;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        border: 3px solid red;
+      }
+
+      #images_container {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        overflow: auto;
+        justify-content: space-around;
+      }
+
+      #images_container li {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0%;
+        margin: 5px;
+        list-style: none;
+      }
+    </style>
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <ul>
+    <h1>Welcome to The Odin Project's</h1>
+    <h1>Odin Recipes - Responsive Design</h1>
+    <ul id="images_container">
       <li>
-        <a href="recipes/Caprese Stuffed Avocado.html"
-          >Caprese Stuffed Avocado</a
+        <a href="recipes/Caprese Stuffed Avocado.html">
+          <img
+            src="https://www.allrecipes.com/thmb/McyK8Qrv0cU1QdVWukL7FnHx_Ww=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8610762_Caprese-Stuffed-Avocado_Maura-Rawlette_4x3-3ae08f2d6ad443d2ac9617344f6b40a5.jpg"
+            alt="Caprese Stuffed Avocado"
+          />
+          Caprese Stuffed Avocado</a
         >
+        <!-- <a href="default.asp"><img src="smiley.gif" alt="HTML tutorial" style="width:500px;height:500px;"></a> -->
       </li>
       <li>
-        <a href="recipes/Mediterranean Stuffed Zucchini.html"
-          >Mediterranean Stuffed Zucchini</a
+        <a href="recipes/Mediterranean Stuffed Zucchini.html">
+          <img
+            src="https://www.allrecipes.com/thmb/7Hb7SYazAOXrzRsMYdt8NWgxtYk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/5412320-mediterranean-stuffed-zucchini-France-C-4x3-1-0fd67d7f24f4435798dfe1b0099a6f3d.jpg"
+            alt="Mediterranean Stuffed Zucchini"
+          />
+          Mediterranean Stuffed Zucchini</a
         >
+        <!-- <a href="default.asp"><img src="smiley.gif" alt="HTML tutorial" style="width:500px;height:500px;"></a> -->
       </li>
       <li>
-        <a href="recipes/Homemade Corn Dogs.html">Homemade Corn Dogs</a>
+        <a href="recipes/Homemade Corn Dogs.html">
+          <img
+            src="https://www.allrecipes.com/thmb/rmnH05oA3-i6keukS6qdI7rkDv8=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HomemadeCornDogs4x3-a10707a1c5e544adbe5fdd2013c8fc4f.jpg"
+            alt="Homemade Corn Dogs"
+          />
+          Homemade Corn Dogs</a
+        >
       </li>
     </ul>
   </body>
