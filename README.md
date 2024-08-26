@@ -1,26 +1,20 @@
-# CODE
+#CODE - Courses & Ebooks Coding Practise
 
-## Courses & Ebooks Coding Practise
+interneting-is-hard (internetingishard.netlify.app)
+-flexbox
+-advanced positioning
 
-##Odin Project
-###css-exercises
-###curriculum
-###repos
+learn-linux-quickly
 
----
+odin-project
+-css-exercises
+-git_test
+-odin-recipes
 
-## JavaScript All-in-One For Dummies
+the-html-and-css-workshop
+
+JavaScript All-in-One For Dummies
 
 JAVASCRIPTAIO
 I'm learning JavaScript, React, Vue, Svelte, and Node
 from JavaScript All-in-One For Dummies by Chris Minnick
-
-##Learn-Linux-Quickly
-
-##modern-css
-
-## The-HTHL-and-CSS-Workshop
-
-## interneting-is-hard
-
-https://internetingishard.netlify.app/
