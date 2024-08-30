@@ -30,6 +30,7 @@ body {
   font-size: 18px;
   line-height: 1.8em;
   color: #5d6063;
+  font-weight: 300;
 }
 
 h1,
@@ -223,4 +224,11 @@ nav a:visited:active {
 em,
 strong {
   font-synthesis: none;
+}
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold; /* Or 700 */
 }
