@@ -1,0 +1,65 @@
+body {
+  font-family: Roboto, serif;
+  background: white;
+  font-size: 3vw;
+  color: #000;
+  text-align: left;
+}
+.dark-bg {
+  padding: 16px;
+  background: black;
+  width: 100%;
+  color: #fff;
+}
+.white-bg {
+  padding: 16px;
+  width: 100%;
+}
+.title {
+  padding: 16px;
+  color: royalblue;
+  font-size: 7vw;
+  font-weight: 700;
+}
+.c1 {
+  font-size: 4vw;
+  font-weight: 700;
+}
+.c2 {
+  font-size: 48px;
+  font-weight: 900;
+}
+.c3 {
+  font-size: 18px;
+}
+.c4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.c5 {
+  color: royalblue;
+  font-size: 4vw;
+  font-weight: 700;
+}
+.c6 {
+  font-size: 36px;
+  font-weight: 900;
+}
+.c7 {
+  font-size: 4vw;
+  font-weight: 700;
+}
+.c8 {
+  font-size: 36px;
+  font-style: italic;
+}
+.c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6,
+.c7,
+.c8 {
+  margin-bottom: 32px;
+}
