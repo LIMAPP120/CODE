@@ -1,0 +1,15 @@
+body {
+  font-size: 2vw;
+  margin: 0 auto;
+  width: 60ch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: 3px solid red;
+}
