@@ -1,5 +1,6 @@
 let humanScore = 0;
 let computerScore = 0;
+let tie = 0;
 
 function getComputerChoice() {
   let num = Math.floor(Math.random() * 3);
@@ -24,6 +25,7 @@ function getHumanChoice() {
 
 function playRound(getComputerChoice, getHumanChoice) {
   if (getComputerChoice === getHumanChoice) {
+    tie += 1;
     return "This is a Tie. Both are " + getComputerChoice;
   }
   if (getComputerChoice === "rock") {
@@ -56,9 +58,25 @@ function playRound(getComputerChoice, getHumanChoice) {
 function playGame(round) {
   for (let i = 1; i <= 5; i++) {
     let msg = playRound(getComputerChoice(), getHumanChoice());
-    alert(`Round ${i}: ${msg}`);
+    alert(`Round ${i}: ${msg}.`);
+    alert(
+      `Human Score: ${humanScore}, Computer Score: ${computerScore}, Tie: ${tie}.`
+    );
   }
-  return "Human Score: " + humanScore + ", Computer Score: " + computerScore;
+  return (
+    "Human Score: " +
+    humanScore +
+    ", Computer Score: " +
+    computerScore +
+    ", Tie: " +
+    tie +
+    "."
+  );
 }
 
-console.log(playGame(5));
+alert(
+  "Five rounds of Rock, Paper and Scissors will be played. Your opponent is the computer."
+);
+let finalscore = playGame(5);
+alert(`The Final Score: \n ${finalscore}`);
+alert("Refresh the screen to play another round.");
